@@ -28,7 +28,7 @@ this is the source code of the vulnerable function.
 
 
 <img width="480" height="50" alt="image" src="https://github.com/user-attachments/assets/c17f9a73-aad1-4bec-a268-0514622e8bf8" />
-/
+
 
 and this is the dangerous functions `fgets` ,`strcpy` and `system` .
 
