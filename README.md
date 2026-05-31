@@ -19,8 +19,9 @@ PIE is disabled, allowing hardcoded memory addresses to be used.
 4. Static Analysis
 
   <img width="295" height="225" alt="image" src="https://github.com/user-attachments/assets/2395e1a3-03ba-4e67-8237-ec69fd1d8c26" />
-
+ 
 <img width="510" height="83" alt="image" src="https://github.com/user-attachments/assets/37d64871-267d-4572-8258-f33ee4ec8015" />
+ 
 <img width="480" height="50" alt="image" src="https://github.com/user-attachments/assets/c17f9a73-aad1-4bec-a268-0514622e8bf8" />
 
 this is the source code of the vulnerable function and the dangerous functions `fgets` ,`strcpy` and `system` .
