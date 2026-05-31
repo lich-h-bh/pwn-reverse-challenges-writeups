@@ -1,6 +1,6 @@
 # pwn-reverse-challenges-writeups
-1. Challenge Metadata
 
+1. Challenge Metadata
 - Title: Input Injection 1
 - Category: pwn
 - Platform: CyLab
@@ -45,4 +45,4 @@ exploit code :
 !image.png
 
 exploit running :
-!image.png
+<img width="631" height="264" alt="image" src="https://github.com/user-attachments/assets/f614732e-50d2-42d3-a85f-e3aa451071b8" />
