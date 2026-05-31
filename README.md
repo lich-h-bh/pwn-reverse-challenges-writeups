@@ -50,4 +50,5 @@ exploit code :
 
 exploit running :
 
-<img width="631" height="264" alt="image" src="https://github.com/user-attachments/assets/f614732e-50d2-42d3-a85f-e3aa451071b8" />
+<img width="631" height="264" alt="image" src="https://github.com/user-attachments/assets/4ede71fe-24a9-4181-a4b1-8ea409ccb5f7" />
+
