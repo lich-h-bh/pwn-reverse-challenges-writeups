@@ -43,12 +43,10 @@ we will affect the value of `uname`.
 
 Define the payload architecture (e.g., `[Padding] + [/bin/sh]`).
 
-7. Execution & Proof
-exploit code :
-
 <img width="545" height="152" alt="image" src="https://github.com/user-attachments/assets/f3f9137e-4f01-4740-baff-bf2d1a77f0e9" />
 
-exploit running :
+7. Execution & Proof
+exploit execution :
 
 <img width="631" height="264" alt="image" src="https://github.com/user-attachments/assets/4ede71fe-24a9-4181-a4b1-8ea409ccb5f7" />
 
