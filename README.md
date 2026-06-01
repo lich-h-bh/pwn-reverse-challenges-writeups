@@ -1,14 +1,12 @@
-pwn-reverse-challenges-writeups
-
 **Note: There are many similarities to the previous version.**
 
-1. Challenge Metadata
+### 1. Challenge Metadata
 
-- Title: Input Injection 2
-- Category: pwn
-- Platform: CyLab
-- Architecture: ELF 64-bit LSB
-- Difficulty:  Medium
+- **Title:** **Input Injection 2**
+- **Category:** pwn
+- **Platform:** CyLab
+- **Architecture:** ELF 64-bit LSB
+- **Difficulty:** Medium
 
 ### 2. Executive Summary
 
@@ -28,19 +26,19 @@ PIE is disabled, allowing hardcoded memory addresses to be used.
 
 **source code :**
 
-!image.png
+<img width="443" height="348" alt="image" src="https://github.com/user-attachments/assets/d78dfd14-c2aa-4cbe-9316-8c74658b5d11" />
 
 **main functions :** 
 
-!image.png
+<img width="488" height="81" alt="image" src="https://github.com/user-attachments/assets/cf4da2e6-487b-48ed-9a19-8c753feea795" />
 
-!image.png
+<img width="569" height="81" alt="image" src="https://github.com/user-attachments/assets/4b558451-6843-4f2d-96ad-7e4b66320f78" />
 
-!image.png
+<img width="506" height="51" alt="image" src="https://github.com/user-attachments/assets/827b2397-a0d1-49c6-9378-8036218a81af" />
 
 ### 5. Dynamic Analysis & Debugging
 
-!image.png
+<img width="589" height="152" alt="image" src="https://github.com/user-attachments/assets/69aed4e1-c6d8-47ae-8108-d2eee769b86e" />
 
 We used a 100-byte cyclic pattern to determine the command offset, then examined the variable's location in the heap to discover that the offset was 48 bytes.
 
@@ -48,8 +46,10 @@ We used a 100-byte cyclic pattern to determine the command offset, then examined
 
 Define the payload architecture (e.g., `[Padding] + [/bin/sh]`).
 
-!image.png
+<img width="967" height="153" alt="image" src="https://github.com/user-attachments/assets/0aae3935-e4a0-4fe6-8b54-a17d0bb85fb3" />
 
 ### **7. Execution & Proof**
 
 **Proof of execution :**
+
+<img width="619" height="252" alt="image" src="https://github.com/user-attachments/assets/27cf9006-0af3-45f9-b49c-e25d7d04dd6b" />
