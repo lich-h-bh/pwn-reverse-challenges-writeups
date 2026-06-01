@@ -54,4 +54,4 @@ Define the payload architecture (e.g., `[Padding] + [/bin/sh]`).
 
 **Proof of execution :**
 
-<img width="619" height="252" alt="image" src="https://github.com/user-attachments/assets/ae9cbbb3-9119-4ba5-a0a4-4f8e2c70f262" />
+<img width="619" height="252" alt="image" src="https://github.com/user-attachments/assets/4b53ac77-e9f8-4d9f-826a-edcd176ffbbd" />
